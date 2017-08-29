@@ -20,5 +20,10 @@ namespace Utilities
 
       return ValueProvider.ProvideValue( value );
     }
+
+    public static double ProvideValue( double value )
+    {
+      return value * 2;
+    }
   }
 }
