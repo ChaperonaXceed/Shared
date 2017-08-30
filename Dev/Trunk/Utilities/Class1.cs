@@ -33,5 +33,10 @@ namespace Utilities
 
       return ValueProvider.ProvideValue( value );
     }
+
+    public static decimal ProvideValue( decimal value )
+    {
+      return value * 2;
+    }
   }
 }
