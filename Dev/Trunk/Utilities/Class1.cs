@@ -38,5 +38,13 @@ namespace Utilities
     {
       return value * 2;
     }
+
+    public static decimal ProvideValue( decimal value, bool square = false )
+    {
+      if( square )
+        return value * value;
+
+      return ValueProvider.ProvideValue( value );
+    }
   }
 }
