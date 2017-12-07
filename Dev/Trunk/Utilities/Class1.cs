@@ -10,7 +10,7 @@ namespace Utilities
   {
     public static int ProvideValue( int value )  
     {
-      return value * 2;  
+      return value * 20;
     }
 
     public static int ProvideValue( int value, bool square = false )
