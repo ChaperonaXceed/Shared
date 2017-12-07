@@ -8,9 +8,9 @@ namespace Utilities
 {
   public class ValueProvider
   {
-    public static int ProvideValue( int value )
+    public static int ProvideValue( int value )  
     {
-      return value * 2;
+      return value * 2;  
     }
 
     public static int ProvideValue( int value, bool square = false )
